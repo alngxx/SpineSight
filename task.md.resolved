@@ -1,0 +1,44 @@
+# Shelf Scanner - Project Tasks
+
+## Deliverables (Pre-coding)
+- [x] Create Architecture Overview <!-- id: 0 -->
+- [x] Define Database Schema <!-- id: 1 -->
+- [x] Define API Endpoints <!-- id: 2 -->
+- [x] Create 4-Week Project Plan <!-- id: 3 -->
+
+## Week 1: MVP Skeleton & Basic Scanning
+- [/] **Repo Scaffolding** <!-- id: 4 -->
+    - [ ] Initialize monorepo structure (/client, /server)
+    - [ ] Setup root `package.json` and scripts
+- [ ] **Frontend Foundation** <!-- id: 5 -->
+    - [ ] Initialize React app (Vite + TypeScript)
+    - [ ] Implement Mobile-first layout shell
+    - [ ] **Device ID Implementation**
+        - [ ] Generate/Store UUID in localStorage on first load
+        - [ ] Attach to all API requests
+- [ ] **Backend Foundation** <!-- id: 6 -->
+    - [ ] Initialize Express app (TypeScript)
+    - [ ] Setup Multer for uploads
+- [ ] **Supabase Integration** <!-- id: 7 -->
+    - [ ] Create SQL Tables (Migrations/Scripts)
+    - [ ] Configure Environment Variables
+    - [ ] Setup Supabase Storage bucket ('uploads')
+- [ ] **Feature: Image Upload (Scan)** <!-- id: 8 -->
+    - [ ] Implement `POST /api/scan` endpoint
+        - [ ] Handle image upload (Multer)
+        - [ ] Upload to Supabase Storage
+        - [ ] Insert into `scans` table
+        - [ ] Return result
+    - [ ] Implement Upload UI
+        - [ ] File picker / Camera capture
+        - [ ] Loading state
+        - [ ] Success view (Scan ID + Preview)
+- [ ] **Validation & Safety** <!-- id: 9 -->
+    - [ ] File type checks (client + server)
+    - [ ] Size limits
+    - [ ] Error handling
+
+## Future Weeks (Overview)
+- Week 2: AI Extraction (OCR + GPT-4o)
+- Week 3: Recommendations & History
+- Week 4: Hardening & Refinement

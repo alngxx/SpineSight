@@ -1,0 +1,12 @@
+# Dependencies (Do not commit these, they are heavy)
+node_modules/
+
+# Secrets (NEVER commit these)
+.env
+
+# Build outputs
+dist/
+build/
+
+# System files (Mac-specific junk)
+.DS_Store
