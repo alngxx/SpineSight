@@ -9,4 +9,4 @@ dist/
 build/
 
 # System files (Mac-specific junk)
-.DS_Store
+.DS_Store 
