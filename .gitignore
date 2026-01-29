@@ -1,7 +1,7 @@
-# Dependencies (Do not commit these, they are heavy)
+# Dependencies - heavy, do not commit
 node_modules/
 
-# Secrets (NEVER commit these)
+# Secrets - never commit
 .env
 
 # Build outputs
